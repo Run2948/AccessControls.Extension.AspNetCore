@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Threading.Tasks;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     internal sealed class AccessControlAuthorizationHandler : AuthorizationHandler<AccessControlRequirement>
     {

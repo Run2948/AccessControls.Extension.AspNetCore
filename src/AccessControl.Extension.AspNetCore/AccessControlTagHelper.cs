@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     /// <summary>
     /// AccessControlTagHelper

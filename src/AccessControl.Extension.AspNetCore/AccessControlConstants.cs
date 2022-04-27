@@ -1,4 +1,4 @@
-﻿namespace AccessControl.Extension.AspNetCore
+﻿namespace AccessControls.Extension.AspNetCore
 {
     public static class AccessControlConstants
     {

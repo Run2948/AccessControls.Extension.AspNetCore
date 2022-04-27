@@ -1,5 +1,5 @@
-﻿using AccessControl.Extension.AspNetCore;
-using AccessControlDemo.Models;
+﻿using AccessControlDemo.Models;
+using AccessControls.Extension.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

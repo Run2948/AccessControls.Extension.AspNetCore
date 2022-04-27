@@ -1,4 +1,4 @@
-﻿using AccessControl.Extension.AspNetCore;
+﻿using AccessControls.Extension.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessControlDemo.Services

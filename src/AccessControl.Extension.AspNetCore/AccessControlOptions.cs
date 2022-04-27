@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     public class AccessControlOptions
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     internal sealed class AccessControlRequirement : IAuthorizationRequirement
     {

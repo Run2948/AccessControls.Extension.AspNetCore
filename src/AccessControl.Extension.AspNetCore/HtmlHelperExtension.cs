@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using AccessControl.Extension.AspNetCore;
+using AccessControls.Extension.AspNetCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.Extensions.DependencyInjection;

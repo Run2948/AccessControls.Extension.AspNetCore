@@ -6,14 +6,14 @@
 		<Authors>Run2948</Authors>
 		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
 		<LangVersion>8</LangVersion>
-		<PackageId>AccessControl.Extension.AspNetCore</PackageId>
-		<PackageTags>Access Authority Power Permission Extension AspNetCore</PackageTags>
-		<PackageProjectUrl>https://github.com/Run2948/AccessControl.Extension.AspNetCore</PackageProjectUrl>
+		<PackageId>AccessControls.Extension.AspNetCore</PackageId>
+		<PackageTags>Access Control Authority Authorization HtmlHelper TagHelper Extension AspNetCore</PackageTags>
+		<PackageProjectUrl>https://github.com/Run2948/AccessControls.Extension.AspNetCore</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/Run2948/AccessControl.Extension.AspNetCore</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Run2948/AccessControls.Extension.AspNetCore</RepositoryUrl>
 		<GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
 		<Copyright>Copyright © Run2948</Copyright>
-		<NeutralLanguage></NeutralLanguage>
+		<NeutralLanguage>zh-Hans-CN</NeutralLanguage>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Version>1.0.0</Version>

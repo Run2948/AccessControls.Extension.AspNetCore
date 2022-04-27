@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     public interface IAccessControlBuilder
     {

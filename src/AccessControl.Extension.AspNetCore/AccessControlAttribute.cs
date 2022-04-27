@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class AccessControlAttribute : Attribute, IAuthorizationFilter

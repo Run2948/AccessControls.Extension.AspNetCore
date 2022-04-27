@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 using System;
 using System.Threading.Tasks;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     /// <summary>
     /// AccessControlMiddleware

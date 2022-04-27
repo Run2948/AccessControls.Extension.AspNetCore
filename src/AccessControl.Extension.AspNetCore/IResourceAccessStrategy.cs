@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     public interface IResourceAccessStrategy
     {

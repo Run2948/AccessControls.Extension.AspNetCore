@@ -2,7 +2,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace AccessControl.Extension.AspNetCore
+namespace AccessControls.Extension.AspNetCore
 {
     public sealed class SparkContainer : IDisposable
     {

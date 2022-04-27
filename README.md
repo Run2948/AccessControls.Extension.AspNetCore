@@ -1,4 +1,4 @@
-# AccessControl.Extension.AspNetCore
+# AccessControls.Extension.AspNetCore
 
 ​	基于 ASP.NET Core 框架，使用特性标签 `AccessControlAttribute` 等控制 Action 方法的权限，使用 TagHelper `AccessControlTagHelper` 来控制页面上元素的显示权限，同时支持通过中间件 `AccessControlMiddleware`实现对静态资源的访问。
 
@@ -6,10 +6,10 @@
 
 ### 1. 安装权限控制显示组件 
 
-* [AccessControl.Extension.AspNetCore](https://www.nuget.org/packages/AccessControl.Extension.AspNetCore)
+* [AccessControls.Extension.AspNetCore](https://www.nuget.org/packages/AccessControls.Extension.AspNetCore)
 
 ``` bash
-dotnet add package AccessControl.Extension.AspNetCore
+dotnet add package AccessControls.Extension.AspNetCore
 ```
 
 ### 2. 实现自定义权限控制策略
@@ -19,13 +19,13 @@ dotnet add package AccessControl.Extension.AspNetCore
 
 示例代码：
 
-1. [ResourceAccessStrategy.cs](https://github.com/Run2948/AccessControl/blob/master/samples/AccessControlDemo/Services/ActionAccessStrategy.cs)
+1. [ResourceAccessStrategy.cs](https://github.com/Run2948/AccessControls.Extension.AspNetCore/blob/master/samples/AccessControlDemo/Services/ActionAccessStrategy.cs)
 
-1. [ControlAccessStrategy.cs](https://github.com/Run2948/AccessControl.Extension.AspNetCore/blob/master/samples/AccessControlDemo/Services/ControlAccessStrategy.cs)
+1. [ControlAccessStrategy.cs](https://github.com/Run2948/AccessControls.Extension.AspNetCore/blob/master/samples/AccessControlDemo/Services/ControlAccessStrategy.cs)
 
 ### 3. 注册自定义权限控制策略
 
-​	在 `Startup` 文件中注册显示策略，参考 [Startup.cs](https://github.com/Run2948/AccessControl.Extension.AspNetCore/blob/master/samples/AccessControlDemo/Startup.cs)
+​	在 `Startup` 文件中注册显示策略，参考 [Startup.cs](https://github.com/Run2948/AccessControls.Extension.AspNetCore/blob/master/samples/AccessControlDemo/Startup.cs)
 
 ``` csharp
 // ConfigureServices
@@ -107,18 +107,18 @@ public IActionResult Contact()
 
 ### 5. 控制页面元素的显示
 
-​	为了使用比较方便，建议在页面上导入命名空间，具体方法如下，详见  [Samples](https://github.com/Run2948/AccessControl.Extension.AspNetCore/blob/master/samples/AccessControlDemo)：
+​	为了使用比较方便，建议在页面上导入命名空间，具体方法如下，详见  [Samples](https://github.com/Run2948/AccessControls.Extension.AspNetCore/blob/master/samples/AccessControlDemo)：
 
 #### HtmlHelper 扩展
 
 1. 添加命名空间引用
 
-    在  **_ViewImports.cshtml** 中引用命名空间 `AccessControl.Extension.AspNetCore`
+    在  **_ViewImports.cshtml** 中引用命名空间 `AccessControls.Extension.AspNetCore`
 
     ``` csharp
     @using AccessControlDemo
-    // add AccessControl.Extension.AspNetCore
-    @using AccessControl.Extension.AspNetCore
+    // add AccessControls.Extension.AspNetCore
+    @using AccessControls.Extension.AspNetCore
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     ```
 
@@ -171,13 +171,13 @@ public IActionResult Contact()
 
 1. 添加 TagHelper 引用
 
-    在 **_ViewImports.cshtml** 中引用 `AccessControl.Extension.AspNetCore` TagHelper
+    在 **_ViewImports.cshtml** 中引用 `AccessControls.Extension.AspNetCore` TagHelper
 
     ``` csharp
     @using AccessControlDemo
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-    // add AccessControl.Extension.AspNetCore TagHelper
-    @addTagHelper *, AccessControl.Extension.AspNetCore
+    // add AccessControls.Extension.AspNetCore TagHelper
+    @addTagHelper *, AccessControls.Extension.AspNetCore
     ```
 
 2. 在 Razor 页面上使用

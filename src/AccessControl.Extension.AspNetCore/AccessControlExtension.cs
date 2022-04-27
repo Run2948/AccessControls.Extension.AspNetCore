@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using AccessControl.Extension.AspNetCore;
+using AccessControls.Extension.AspNetCore;
 
 namespace Microsoft.AspNetCore.Builder
 {

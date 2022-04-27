@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AccessControl.Extension.AspNetCore\AccessControl.Extension.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\AccessControl.Extension.AspNetCore\AccessControls.Extension.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace AccessControl.Extension.AspNetCore
+﻿namespace AccessControls.Extension.AspNetCore
 {
     /// <summary>
     /// view component access strategy
